@@ -1,19 +1,16 @@
 //Componentes
-import NavBarComponent from './components/NavBarComponent/NavBarComponent';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-
-//Estilo
-import './App.css'
+import MainRouter from './router/MainRouter';
 //Importacion de estilos bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+//Estilo
+import './App.css'
 
+function App() {
 
   return (
       <div className='NavBarStyles'>
-        <NavBarComponent />
-        <ItemListContainer greeting="¡Bienvenido a Kinetoscope!" />
+        <MainRouter />
       </div>
   )
 }
