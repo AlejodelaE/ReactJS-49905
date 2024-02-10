@@ -94,13 +94,13 @@ const handleOnChange =(evt) =>{
         <div className="container-form">
         <h2 className="carrito">Complete el formulario</h2> 
         <form className="formulario col" onSubmit={handleAddOrder}>
-            <input className="input" type="text" name="name" placeholder="Ingrese su nombre" value={dataForm.name} onChange={handleOnChange} />
+            <input className="input" type="text" name="name" placeholder="Nombre" value={dataForm.name} onChange={handleOnChange} />
 
-            <input className="input"type="text" name="lastname" placeholder="Ingrese su apellido" value={dataForm.lastname} onChange={handleOnChange}/>
+            <input className="input"type="text" name="lastname" placeholder="Apellido" value={dataForm.lastname} onChange={handleOnChange}/>
             
-            <input className="input"type="number" name="phone" placeholder="Ingrese su telefono" value={dataForm.phone} onChange={handleOnChange}/>
+            <input className="input"type="number" name="phone" placeholder="Telefono" value={dataForm.phone} onChange={handleOnChange}/>
         
-            <input className="input"type="email" name="email" placeholder="Ingrese su email" value={dataForm.email}onChange={handleOnChange} />
+            <input className="input"type="email" name="email" placeholder="Email" value={dataForm.email}onChange={handleOnChange} />
             
             <button className="carrito-vacio">Finalizar Compra</button>
         </form>
