@@ -1,0 +1,13 @@
+.logo{
+    font-style:initial;
+    font-weight: bolder;
+}
+
+.estilosnarvar{
+text-decoration: none;
+color: black;
+margin-left: 125px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
